@@ -1,0 +1,281 @@
+/*INDEX - START*/
+#indexBody {
+	background-color: black;
+	background-image: url("./images/index/background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1025px)
+{
+	#indexLogo {
+		margin: auto;
+		display: block;
+		height: 50%;
+		width: 50%;
+	}
+}
+/* INDEX - END*/
+
+/* CAPSTONE 1 - START*/
+
+/* General CSS Start */
+html {
+  scroll-behavior: smooth;
+}
+
+.lobster {
+	font-family: 'Lobster', cursive;
+}
+
+.libreBaskerville {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.abrilFatface {
+	font-family: 'Abril Fatface', cursive;
+}
+
+.letterBorder {
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 0.5px;
+}
+
+.letterColor {
+	color: #0292a8;
+}
+/* General CSS End */
+
+/* Navigation Bar Start */
+.myNav {
+	background-color: #0292a8;
+}
+.myNavFont {
+	color: black;
+	font-weight: bold;
+}
+
+.navbar-toggler-icon {
+	background-color: #bfe1ff;
+}
+
+.navbar-toggler {
+	background-color: black;
+}
+/* Navigation Bar End */
+
+/* Languages Section Start */
+#languagesBanner {
+	font-weight: bold;
+	font-family: 'Lobster';
+	color: #0292a8;
+	padding: 10px 0px;
+}
+
+.robo3t {
+	padding-top: 20px;
+	height: 150px;
+	width: auto;
+}
+/* Languages Section End */
+
+/* Projects Section Start */
+#projectsBanner {
+	font-weight: bold;
+	font-family: 'Lobster';
+	color: #0292a8;
+	padding: 10px 0px;
+}
+
+.imageBorder {
+	border-width: 2.25px;
+	border-style: solid;
+	border-color: #343a40;
+}
+
+.imageSize {
+	height: auto;
+	width: 85%;
+}
+/* Projects Section End */
+
+/* Contact Start */
+#contactBanner {
+	font-weight: bold;
+	font-family: 'Lobster';
+	color: #0292a8;
+	padding: 10px 0px;
+}
+/* Contact End */
+
+/* Footer Start */
+#foot {
+	font-weight: bold;
+	background-color: #0292a8;
+	padding: 8px 0px;
+}
+/* Footer End */
+
+/* Media Start */
+@media (min-width: 320px)
+{
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 300%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.inputStyle {
+		height: 40px;
+		width: 76%;
+	}
+
+	textarea {
+	  width: 219px;
+	  height: 100px;
+	}
+
+	#msglogo {
+		margin-bottom: 90px;
+	}
+}
+
+
+@media (min-width: 375px) {
+
+	.inputStyle {
+		height: 40px;
+		width: 80%;
+	}
+
+	textarea {
+	  width: 274px;
+	  height: 100px;
+	}
+
+}
+
+@media (min-width: 414px) {
+
+	.inputStyle {
+		height: 40px;
+		width: 82%;
+	}
+
+	textarea {
+	  width: 312px;
+	  height: 100px;
+	}
+
+}
+
+@media (min-width: 481px)
+{
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 500%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.myInfoName{
+		font-size: 350%;
+	}
+
+	.myInfo {
+		font-size: 275%;
+	}
+
+	
+}
+
+@media (min-width: 768px)
+{
+	.aboutMyself {
+		font-size: 275%;
+	}
+
+	.aboutMe {
+		font-size: 130%;
+	}
+	.inputStyle {
+		height: 40px;
+		width: 88%;
+	}
+
+	textarea {
+	  width: 506px;
+	  height: 100px;
+	}
+}
+
+@media (min-width: 1024px)
+{
+	.myInfoName{
+		font-size: 325%;
+	}
+
+	.myInfo {
+		font-size: 250%;
+	}
+
+	.aboutMyself {
+		font-size: 275%;
+		margin-top: 60px;
+	}
+
+	.aboutMe {
+		font-size: 130%;
+	}
+
+	.docx {
+		padding-bottom: 60px;
+	}
+
+	.inputStyle {
+		height: 49px;
+		width: 90.7%;
+	}
+
+	textarea {
+	  width: 667px;
+	  height: 100px;
+	  margin-top: 1px;
+	}
+}
+
+@media (min-width: 1025px)
+{
+	.aboutMyself {
+		font-size: 300%;
+	}
+
+	.aboutMe {
+		font-size: 170%;
+	}
+
+	.inputStyle {
+		height: 49px;
+		width: 95.75%;
+	}
+
+	textarea {
+	  width: 95.75%;
+	  height: 100px;
+	  margin-top: 1px;
+	}
+}
+/* Media End */
+
+
+/*CAPSTONE 1 - END
