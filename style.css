@@ -115,6 +115,28 @@ html {
 	color: #0292a8;
 	padding: 10px 0px;
 }
+
+#sub-btn {
+	background-color: #343a40;
+	color: #0292a8;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 30px;
+	border-color: #0292a8;
+	border-width: 3.5px;
+}
+
+#cls-btn {
+	background-color: #343a40;
+	color: #0292a8;
+	font-weight: bold;
+	font-size: 20px;
+	border-color: #0292a8;
+	border-width: 2.5px;
+	border-radius: 8px;
+	padding: 3px 10px
+}
 /* Contact End */
 
 /* Footer Start */
